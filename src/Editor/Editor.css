@@ -1,0 +1,32 @@
+.editor-header {
+  margin: 0;
+  height: 30px;
+  background-color: #008b8b;
+  border-radius: 2%;
+  border: solid 1px black;
+  display: flex;
+  justify-content: space-between;
+  padding: 3px;
+  align-items: center;
+}
+.editor-name {
+  font-weight: bold;
+  text-align: left;
+  color: black;
+  text-align: start;
+  font-size: 20px;
+}
+.editor {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 1px 0.5px 10px black;
+}
+textarea {
+  background-color: #e0ffff;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+}
